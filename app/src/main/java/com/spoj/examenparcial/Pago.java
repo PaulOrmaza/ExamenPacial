@@ -42,9 +42,17 @@ public class Pago extends AppCompatActivity {
 
             double totalPagar = importePlacas + multaContaminacion + valorMatriculacion;
 
-            String resultado = "Importe por renovación de placas: $" + importePlacas + "\n" +
+            String resultado = "Detalles del vehículo:\n" +
+                    "Nombre: " + nombre + "\n" +
+                    "Cédula: " + cedula + "\n" +
+                    "Placa: " + placa + "\n" +
+                    "Marca: " + marca + "\n" +
+                    "Color: " + color + "\n" +
+                    "Tipo: " + tipo + "\n\n" +
+                    "Cálculos realizados:\n" +
+                    "Importe por renovación de placas: $" + importePlacas + "\n" +
                     "Multa por contaminación: $" + multaContaminacion + "\n" +
-                    "Valor de matriculación: $" + valorMatriculacion + "\n" +
+                    "Valor de matriculación: $" + valorMatriculacion + "\n\n" +
                     "Total a pagar: $" + totalPagar;
 
             txtResultado.setText(resultado);
