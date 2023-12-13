@@ -11,9 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenParcial"
-        tools:targetApi="31">
+        tools:targetApi="31"><activity
+        android:name=".Pago"
+        android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".FormularioVehiculo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
