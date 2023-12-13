@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ExamenParcial</string>
+    <string name="txtcedula">Número de Cédula del Propietario:</string>
+    <string name="txtnombre">Nombres del Propietario:</string>
+    <string name="txtplaca">Número de placa:</string>
+    <string name="txtfbvehiculo">Año de Fabricación del Vehículo:</string>
+    <string name="txtmarca">Marca:</string>
+    <string name="txtcolor">Color:</string>
+    <string name="txttipo">Tipo de Vehículo:</string>
+    <string name="txtvalor">Valor del Vehículo:</string>
+    <string name="txtmultas">Posee multas:</string>
+
+    <!-- IDs de los botones -->
+    <string name="btn_pagar">Pagar</string>
 </resources>
